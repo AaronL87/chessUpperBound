@@ -24,7 +24,7 @@ def chessExpress(inputDict):
             inputDict[val] = inputDict[val+1]
     print(inputDict)
     
-    # Sorts items of dictionary in descending order by the largest key (number of type)
+    # Sorts items of dictionary in descending order by the largest key (number in type)
     sortDict = sorted(inputDict.items(),reverse=True,key=lambda a:a[0])
     print(sortDict)
 
