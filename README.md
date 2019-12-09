@@ -12,4 +12,4 @@ is an expression that counts all of the various unique piece combinations if che
 
 This algorithm has other applications, but the chess applications was its original inspiration.
 
-The expression in question can also be found in the paper in the link above.
+This is the first and main expression found in the paper in the link above.
