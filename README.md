@@ -1,7 +1,9 @@
 # chessUpperBound
 
 ## upperBound.py
-is an expression that computes a strict upper bound of chess positions.
+is an expression that computes a strict upper bound of chess positions. The expression includes many illegal positions, and I intend to refine the expression in time.
+
+### The current output is: 3.0697566281670323e+63
 
 This is a slightly optimized version of second expression from my paper "Of Games Greater than Ours:..." seen here: 
 
