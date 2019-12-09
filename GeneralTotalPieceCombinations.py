@@ -5,8 +5,7 @@ from scipy.special import comb
 # A type refers to a kind of piece, including color, with a fixed number of elements.
 # For example, if chess had 5 bishops per side for both colors instead of 2.
 # This function works for any number of types and number of players (colors).
-# "array" is a list of the form [(number of pieces in a type,count of that type)...]
-# "array" is sorted in descending order based on number of pieces in that type.
+# "sampleDict" is a dictionary of the form {number of pieces in a type:count of that type,...}
 
 # Choose which "sampleDict" you want to use and comment out the other
 # sampleDict = {5:2,3:3,1:5}
