@@ -10,12 +10,12 @@ def chessCount():
         pawnSquares = comb(48,t)
         for x in range(0,16-t+1):
             promotionCount = comb(x+3,3)
-            for y in range(0,14+1):
-                for z in range(0,6+1):
+            for z in range(0,6+1):
+                for y in range(0,8-z+1):                
                     pieceSquares = comb(64-t,x+y+z+2)
                     placement = math.factorial(t+x+y+z+2)
                     pieceCount = comb(6,z)*comb(8-z,y)
-                    total += pieceSquares * placement * pieceCount
+                    total += pieceSquares*placement*pieceCount
             total2 += total*promotionCount
         finalTotal += total2*pawnCount*pawnSquares
     print(finalTotal)
