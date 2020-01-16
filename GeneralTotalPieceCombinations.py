@@ -5,11 +5,12 @@ from scipy.special import comb
 # A type refers to a kind of piece, including color, with a fixed number of elements.
 # For example, if chess had 5 bishops per side for both colors instead of 2.
 # This function works for any number of types and number of players (colors).
-# "sampleDict" is a dictionary of the form {number of pieces in a type:count of that type,...}
+# "sampleDict" is a dictionary of the form
+# {number of pieces in a type: distinct colors and piece types with that number,...}
 
 # Choose which "sampleDict" you want to use and comment out the other
 # sampleDict = {5:2,3:3,1:5}
-sampleDict = {2:6,1:2}
+sampleDict = {2:6,1:2} # 6 distinct pairs of pieces ((B,b),(N,n),(R,r)) and 2 single queens 
 
 def chessExpress(inputDict):
     num = max(inputDict)
